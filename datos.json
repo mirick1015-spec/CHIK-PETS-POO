@@ -1,0 +1,171 @@
+{
+    "clientes": [
+        {
+            "id": "1110293559",
+            "nombre": "anyeli",
+            "telefono": "3216187854"
+        },
+        {
+            "id": "1020304051",
+            "nombre": "Ana Gómez",
+            "telefono": "3162345678"
+        },
+        {
+            "id": "1020304052",
+            "nombre": "Carlos Pérez",
+            "telefono": "3178765432"
+        },
+        {
+            "id": "1020304053",
+            "nombre": "María López",
+            "telefono": "3181112233"
+        },
+        {
+            "id": "1020304054",
+            "nombre": "Juan Torres",
+            "telefono": "3154445566"
+        },
+        {
+            "id": "1020304055",
+            "nombre": "Lucía Díaz",
+            "telefono": "3197778899"
+        }
+    ],
+    "mascotas": [
+        {
+            "id": "M001",
+            "nombre": "luky",
+            "especie": "perro",
+            "raza": "pastor aleman",
+            "id_cliente": "1110293559"
+        },
+        {
+            "id": "M002",
+            "nombre": "Michi",
+            "especie": "gato",
+            "raza": "siamés",
+            "id_cliente": "1020304051"
+        },
+        {
+            "id": "M003",
+            "nombre": "Firulais",
+            "especie": "perro",
+            "raza": "golden",
+            "id_cliente": "1020304052"
+        },
+        {
+            "id": "M004",
+            "nombre": "Copito",
+            "especie": "conejo",
+            "raza": "mini rex",
+            "id_cliente": "1020304053"
+        },
+        {
+            "id": "M005",
+            "nombre": "Max",
+            "especie": "perro",
+            "raza": "bulldog",
+            "id_cliente": "1020304054"
+        },
+        {
+            "id": "M006",
+            "nombre": "Luna",
+            "especie": "gato",
+            "raza": "criollo",
+            "id_cliente": "1020304051"
+        }
+    ],
+    "servicios": [
+        {
+            "id": "S001",
+            "nombre": "Baño general y secado",
+            "tarifa": 50000,
+            "tarifa_min": 35000,
+            "tarifa_max": 70000
+        },
+        {
+            "id": "S002",
+            "nombre": "Corte de pelo y estilo",
+            "tarifa": 65000,
+            "tarifa_min": 45000,
+            "tarifa_max": 80000
+        },
+        {
+            "id": "S003",
+            "nombre": "Corte de uñas y limpieza de oídos",
+            "tarifa": 20000,
+            "tarifa_min": 15000,
+            "tarifa_max": 35000
+        },
+        {
+            "id": "S004",
+            "nombre": "Masajes",
+            "tarifa": 35000,
+            "tarifa_min": 30000,
+            "tarifa_max": 75000
+        },
+        {
+            "id": "S005",
+            "nombre": "Limpieza dental",
+            "tarifa": 100000,
+            "tarifa_min": 90000,
+            "tarifa_max": 200000
+        },
+        {
+            "id": "S006",
+            "nombre": "Desparasitación",
+            "tarifa": 25000,
+            "tarifa_min": 20000,
+            "tarifa_max": 90000
+        },
+        {
+            "id": "S007",
+            "nombre": "Vacunación",
+            "tarifa": 50000,
+            "tarifa_min": 40000,
+            "tarifa_max": 110000
+        }
+    ],
+    "citas": [
+        {
+            "id": "C001",
+            "id_mascota": "M001",
+            "id_servicio": "S001",
+            "fecha": "12/10/2026",
+            "franja": "8:00-9:00",
+            "estado": true
+        },
+        {
+            "id": "C002",
+            "id_mascota": "M002",
+            "id_servicio": "S002",
+            "fecha": "15/10/2026",
+            "franja": "9:00-10:00",
+            "estado": true
+        },
+        {
+            "id": "C003",
+            "id_mascota": "M003",
+            "id_servicio": "S003",
+            "fecha": "16/10/2026",
+            "franja": "10:00-11:00",
+            "estado": true
+        },
+        {
+            "id": "C004",
+            "id_mascota": "M004",
+            "id_servicio": "S004",
+            "fecha": "17/10/2026",
+            "franja": "11:00-12:00",
+            "estado": true
+        },
+        {
+            "id": "C005",
+            "id_mascota": "M005",
+            "id_servicio": "S005",
+            "fecha": "18/10/2026",
+            "franja": "14:00-15:00",
+            "estado": true
+        }
+    ]
+}
